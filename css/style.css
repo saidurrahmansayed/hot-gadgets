@@ -1,0 +1,72 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.carousel-inner p {
+    font-weight: 300;
+    color: lightslategray;
+}
+
+.carousel-bg-1 {
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px;
+}
+
+.carousel-bg-2 {
+    background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 125px;
+}
+
+.bg-carousel {
+    background-image: linear-gradient(to right,#FF9C35 , #FFD019);
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: lightslategray;
+}
+
+.title-pad {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.categories h4::after {
+    display: block;
+    content: "";
+    height: 6px;
+    width: 100px;
+    background-image: linear-gradient(to right, #FFD019,#FF9C35);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.cat-img {
+    width: 50%;
+}
+
+.border1 {
+    border: none;
+    border-radius: 10px 25px;
+}
+
+.border2 {
+    border: none;
+    border-radius: 25px  10px;
+}
+
+
+
